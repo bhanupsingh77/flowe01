@@ -1,0 +1,26 @@
+.container {
+  margin: 20px 40px;
+}
+
+.productImage {
+  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
+    0px 2px 1px -1px rgb(0 0 0 / 12%);
+  border: 1px rgb(255, 255, 255) solid;
+  border-radius: 5px;
+}
+
+.text {
+  margin-top: 25px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #aa2828;
+  text-shadow: 2px 1px 20px #ad6262;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 20px 10px;
+    margin-top: 60px;
+  }
+}

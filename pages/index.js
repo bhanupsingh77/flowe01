@@ -19,10 +19,10 @@ export default function Home() {
       <Header />
       <main>
         <ProductPromotion />
-        <ProductCarousel productType={"box"} displayNumber={19} />
-        <ProductCarousel productType={"basket"} displayNumber={8} />
-        <ProductCarousel productType={"bunch"} displayNumber={5} />
-        <ProductCarousel productType={"vase"} displayNumber={3} />
+        <ProductCarousel productType={"Box"} displayNumber={19} />
+        <ProductCarousel productType={"Basket"} displayNumber={8} />
+        <ProductCarousel productType={"Bunch"} displayNumber={5} />
+        <ProductCarousel productType={"Vase"} displayNumber={3} />
         <BrandLocation />
       </main>
     </>

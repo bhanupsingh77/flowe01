@@ -36,10 +36,16 @@ const Header = () => {
                   <br /> (Delhi NCR)
                 </a>
                 <p className={styles.header__nav_link}>
-                  Landline <FaPhone size={12} /> 011-2433121
+                  Landline <FaPhone size={12} />{" "}
+                  <a style={{ color: "white" }} href="tel:01124333121">
+                    +011 24333121
+                  </a>
                 </p>
                 <p className={styles.header__nav_link}>
-                  whatsApp <FaPhone size={12} /> 9810948655
+                  Phone/whatsApp <FaPhone size={12} />{" "}
+                  <a style={{ color: "white" }} href="tel:919810948655">
+                    +91 9810948655
+                  </a>
                 </p>
               </li>
             </ul>

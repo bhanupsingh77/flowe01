@@ -1,0 +1,89 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #f7f7f754;
+  margin-top: 50px;
+  padding-top: 20px;
+  height: 350px;
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.carouselContainer {
+  background-color: rgba(255, 228, 196, 0);
+  height: 220px;
+}
+/* .brandReviewImage {
+  border: 1px red solid;
+  position: relative !important;
+  width: 40% !important;
+  height: 100px !important;
+} */
+.reviewImageContainer {
+  display: flex;
+  justify-content: center;
+  position: unset !important;
+}
+.reviewImage {
+  position: relative !important;
+  width: 60% !important;
+  height: 180px !important ;
+  /* box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
+    0px 2px 1px -1px rgb(0 0 0 / 12%); */
+  box-shadow: 0 0 1px rgb(53 72 91 / 7%), 0 2px 2px rgb(0 0 0 / 1%),
+    0 4px 4px rgb(0 0 0 / 2%), 0 10px 8px rgb(0 0 0 / 3%),
+    0 15px 15px rgb(0 0 0 / 3%), 0 30px 30px rgb(0 0 0 / 4%),
+    0 70px 65px rgb(0 0 0 / 5%);
+  border-radius: 8px;
+  border: 1px rgb(255, 255, 255) solid;
+}
+.reviewButtonContainer {
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
+.reviewButton {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  background-color: #0070f3;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+.reviewButton:hover {
+  background-color: rgba(0, 118, 255, 0.9);
+  box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 28px;
+  }
+  .mainContainer {
+    height: 180px;
+  }
+  .carouselContainer {
+    height: 110px;
+  }
+  .reviewImage {
+    width: 90% !important;
+    height: 90px !important ;
+  }
+}

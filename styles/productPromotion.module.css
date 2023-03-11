@@ -1,3 +1,16 @@
+.mainContaineer {
+  margin-top: 100px;
+  font-family: Open Sans;
+}
+.bannerPromo {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(101, 34, 226);
+}
+.number {
+  color: rgb(128, 127, 192);
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -5,9 +18,9 @@
   height: 20vh;
   background-color: #fff0f0;
   /* margin: 0px 10px; */
-  margin-top: 100px;
+
   box-shadow: 10px;
-  font-family: Open Sans;
+
   border-top: 2px solid rgb(126, 17, 17);
   box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
     0px 2px 1px -1px rgb(0 0 0 / 12%);
@@ -25,11 +38,7 @@
 }
 
 .changing_text {
-  margin: 0px;
   margin-top: 10px;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
   font-size: 48px;
   font-weight: 600;
   color: #ffffff;
@@ -60,5 +69,9 @@
 
   .changing_text {
     font-size: 30px;
+  }
+
+  .bannerPromo {
+    font-size: 16px;
   }
 }

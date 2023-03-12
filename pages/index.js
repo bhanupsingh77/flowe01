@@ -5,6 +5,7 @@ import ProductPromotion from "../src/components/productPromotion";
 import ProductCarousel from "../src/components/productCarousel";
 import BrandLocation from "../src/components/brandLocation";
 import BrandCustomerReview from "../src/components/brandCustomerReview";
+import SocialMedia from "../src/components/socialMedia";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function Home() {
         {/* <ProductCarousel productType={"Vase"} displayNumber={3} /> */}
         <BrandCustomerReview displayNumber={3} />
         <BrandLocation />
+        <SocialMedia />
       </main>
     </>
   );

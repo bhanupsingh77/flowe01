@@ -1,0 +1,17 @@
+.container {
+  padding: 10px 0px;
+  background-color: #882e2e;
+  text-align: center;
+  height: 80px;
+}
+.instaButton {
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.instaButton:hover {
+  color: rgb(238, 164, 151);
+}

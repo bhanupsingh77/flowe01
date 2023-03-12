@@ -32,7 +32,7 @@
 @media only screen and (max-width: 464px) {
   .container {
     margin: 20px 10px;
-    margin-top: 60px;
+    margin-top: 5px;
   }
 
   .productImage {
@@ -45,12 +45,25 @@
 @media only screen and (max-width: 720px) and (min-width: 465px) {
   .container {
     margin: 20px 10px;
-    margin-top: 60px;
+    margin-top: 10px;
   }
 
   .productImage {
     width: 240px !important;
     position: relative !important;
     height: 280px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 721px) {
+  .container {
+    margin: 20px 10px;
+    margin-top: 10px;
+  }
+
+  .productImage {
+    width: 220px !important;
+    position: relative !important;
+    height: 260px !important;
   }
 }

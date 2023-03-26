@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { FaBars, FaHome, FaInfoCircle, FaPhone, FaTimes } from "react-icons/fa";
+import { FaBars, FaPhone, FaTimes } from "react-icons/fa";
 import styles from "../../styles/header.module.css";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,11 +11,13 @@ const Header = () => {
     <header>
       <div className={styles.header}>
         <div className={styles.brand}>
-          <div className={styles.header__logo}>
-            <p className={styles.brandTextMain}>L K BOMBAY </p>
-            <p className={styles.brandText}>
-              Since 1990s @ Defence colony, Delhi
-            </p>
+          <div>
+            <Link href="/" className={`${styles.brandTextMain}`}>
+              L K BOMBAY <br />
+              <p className={styles.brandText}>
+                Since 1990s @ Defence colony, Delhi
+              </p>
+            </Link>
           </div>
           <div
             className={styles.header__hamburger}

@@ -36,12 +36,12 @@ const ProductCarousel = ({ deviceType, productType, displayNumber }) => {
         infinite={true}
         autoPlay={false}
         //   autoPlaySpeed={1000}
-        keyBoardControl={true}
+        keyBoardControl={false}
         //   customTransition="all .8"
         //   transitionDuration={1000}
         containerClass="carousel-container"
-        removeArrowOnDeviceType={["tablet", "mobile"]}
-        // deviceType={deviceType}
+        removeArrowOnDeviceType={""}
+        deviceType={""}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >

@@ -17,10 +17,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.header__logo {
-  font-size: 32px;
-  color: #ffffff;
-}
 
 .header__nav {
   display: none;
@@ -54,6 +50,7 @@
   font-size: 32px;
   letter-spacing: 3px;
   font-family: Montserrat;
+  color: #ffffff;
 }
 
 .brandText {

@@ -1,0 +1,27 @@
+.container {
+  margin-top: 120px;
+  padding: 0px 150px;
+  font-family: "open sans";
+}
+
+.content {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 464px) {
+  .container {
+    padding: 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 465px) {
+  .container {
+    padding: 0px 35px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 721px) {
+  .container {
+    padding: 0px 85px;
+  }
+}

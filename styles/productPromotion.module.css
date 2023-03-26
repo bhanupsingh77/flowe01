@@ -10,6 +10,7 @@
 }
 .number {
   color: rgb(128, 127, 192);
+  text-decoration-line: none;
 }
 .container {
   display: flex;

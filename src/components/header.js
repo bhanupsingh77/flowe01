@@ -12,7 +12,11 @@ const Header = () => {
       <div className={styles.header}>
         <div className={styles.brand}>
           <div>
-            <Link href="/" className={`${styles.brandTextMain}`}>
+            <Link
+              style={{ textDecorationLine: "none" }}
+              href="/"
+              className={`${styles.brandTextMain}`}
+            >
               L K BOMBAY <br />
               <p className={styles.brandText}>
                 Since 1990s @ Defence colony, Delhi
@@ -40,13 +44,19 @@ const Header = () => {
                 </a>
                 <p className={styles.header__nav_link}>
                   Landline <FaPhone size={12} />{" "}
-                  <a style={{ color: "white" }} href="tel:01124333121">
+                  <a
+                    style={{ color: "white", textDecorationLine: "none" }}
+                    href="tel:01124333121"
+                  >
                     +011 24333121
                   </a>
                 </p>
                 <p className={styles.header__nav_link}>
                   Phone/whatsApp <FaPhone size={12} />{" "}
-                  <a style={{ color: "white" }} href="tel:919810948655">
+                  <a
+                    style={{ color: "white", textDecorationLine: "none" }}
+                    href="tel:919810948655"
+                  >
                     +91 9810948655
                   </a>
                 </p>

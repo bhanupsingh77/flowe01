@@ -8,7 +8,7 @@ const Blog = ({ allPostsData }) => {
       {allPostsData.map(({ slug, date, title }) => (
         <div key={slug}>
           <li>
-            <Link style={{ textDecoration: "none" }} href={`/blog/${slug}`}>
+            <Link style={{ textDecorationLine: "none" }} href={`/blog/${slug}`}>
               {title}
             </Link>
             <br />

@@ -19,10 +19,12 @@ function ProductPromotion() {
         <p className={styles.bannerPromo}>
           Contact Us for order (Delhi NCR) phone/whatsApp
           <a className={styles.number} href="tel:919810948655">
+            {" "}
             +91 9810948655
-          </a>
+          </a>{" "}
           Landline
           <a className={styles.number} href="tel:01124333121">
+            {" "}
             +011 24333121
           </a>
         </p>

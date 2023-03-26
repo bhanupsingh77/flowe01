@@ -16,7 +16,7 @@ const SocialMedia = () => {
           Follow us on Instagram
         </a>
       </div>
-      <Link href="/blog">
+      <Link href="/blog" style={{ textDecoration: "none" }}>
         <h3 className={styles.blog}>Blog</h3>
       </Link>
     </div>

@@ -1,0 +1,142 @@
+.card {
+  width: 100%;
+  max-width: 240px;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  cursor: pointer;
+}
+
+.cardContent {
+  padding: 16px;
+}
+.cardImageContainer {
+  width: 100%;
+  height: 100%;
+  position: unset !important;
+}
+.cardImage {
+  width: 240px !important;
+  position: relative !important;
+  height: 260px !important;
+  border-radius: 4px;
+  box-shadow: 1px 1px 0px 1px #e8e8e8;
+}
+
+.cardName {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 8px;
+  flex: 0 0 50%;
+}
+
+.cardPrice {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-family: "Open Sans";
+  margin-top: 8px;
+  flex: 0 0 50%;
+}
+
+.cardInfo {
+  position: relative;
+  padding: 16px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* transition: all 0.3s ease-in-out; */
+  display: none;
+}
+/* .cardInfo {
+  position: relative;
+  padding: 16px;
+  max-height: none;
+  display: none;
+} */
+
+.moreInfoButton {
+  display: none;
+}
+
+/* Enable to make card show info on hover in screen size above 769px */
+/* @media (min-width: 769px) {
+  .card {
+    margin-bottom: 25px;
+  }
+  .card:hover .cardInfo {
+    display: block;
+  }
+  .card:hover {
+    height: auto;
+  }
+} */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+
+  .cardImage {
+    width: 160px !important;
+    position: relative !important;
+    height: 160px !important;
+    border-radius: 4px;
+    box-shadow: 1px 1px 0px 1px #e8e8e8;
+  }
+
+  .cardName {
+    flex: 0 0 calc(50% - 8px);
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .cardPrice {
+    flex: 0 0 calc(50% - 8px);
+    font-size: 14px;
+    margin-top: 2px;
+  }
+
+  .cardInfo {
+    position: relative;
+    padding: 16px;
+    max-height: none;
+  }
+  /* Enable to make card show info on button click in screen size below 769px */
+  /* .moreInfoButton {
+    display: block;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .moreInfoButtonIcon {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+  } */
+
+  /* .cardInfo {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  } */
+
+  /* .cardExpand {
+    display: block;
+  } */
+}

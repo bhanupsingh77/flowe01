@@ -1,0 +1,30 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #25d366;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #128c7e;
+}
+
+.icon {
+  margin-right: 8px;
+  font-size: 26px;
+}
+
+@media (max-width: 768px) {
+  .button {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}

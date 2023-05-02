@@ -65,3 +65,9 @@
 .nav_style {
   list-style: none;
 }
+
+@media only screen and (max-width: 360px) {
+  .header {
+    padding: 3px 8px;
+  }
+}

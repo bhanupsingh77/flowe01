@@ -5,6 +5,9 @@ import ProductCarousel from "../src/components/productCarousel";
 import BrandLocation from "../src/components/brandLocation";
 import BrandCustomerReview from "../src/components/brandCustomerReview";
 import SocialMedia from "../src/components/socialMedia";
+import boxFlowerData from "../productData/boxFlowerData.js";
+import basketFlowerData from "../productData/basketFlowerData.js";
+import bouquetFlowerData from "../productData/bouquetFlowerData.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +16,7 @@ export default function Home({ allPostsData }) {
     <>
       <Head>
         <title>
-          L K Bombay - Defence Colony Delhi since 1990s, Florist near you
+          L K Bombay - Defence Colony Delhi since 1993, Florist near you
         </title>
         <meta
           name="description"
@@ -40,10 +43,15 @@ export default function Home({ allPostsData }) {
       </Head>
       <main>
         <ProductPromotion />
-        <ProductCarousel productType={"Box"} displayNumber={12} />
-        <ProductCarousel productType={"Basket"} displayNumber={8} />
-        <ProductCarousel productType={"Bunch"} displayNumber={5} />
-        {/* <ProductCarousel productType={"Vase"} displayNumber={3} /> */}
+        <ProductCarousel productData={boxFlowerData} productCategory={"Box"} />
+        <ProductCarousel
+          productData={basketFlowerData}
+          productCategory={"Basket"}
+        />
+        <ProductCarousel
+          productData={bouquetFlowerData}
+          productCategory={"Bouquet"}
+        />
         <BrandCustomerReview displayNumber={3} />
         <BrandLocation />
         <SocialMedia />

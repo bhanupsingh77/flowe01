@@ -19,7 +19,7 @@ const Header = () => {
             >
               L K BOMBAY <br />
               <p className={styles.brandText}>
-                Since 1990s @ Defence colony, Delhi
+                Since 1993 @ Defence colony, Delhi
               </p>
             </Link>
           </div>
@@ -57,7 +57,7 @@ const Header = () => {
                     style={{ color: "white", textDecorationLine: "none" }}
                     href="tel:919810948655"
                   >
-                    +91 9810948655
+                    +91 9810948655/9315551966
                   </a>
                 </p>
               </li>

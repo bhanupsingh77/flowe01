@@ -2,7 +2,7 @@ import styles from "../../styles/productCard.module.css";
 import { useState } from "react";
 import Image from "next/image";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
-import WhatsAppButton from "./WhatsAppButton.js";
+import WhatsAppButton from "./whatsAppButton.js";
 
 const ProductCard = ({ product }) => {
   const { name, price, image, info, productCategory } = product;

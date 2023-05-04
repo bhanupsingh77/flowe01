@@ -40,6 +40,16 @@ export default function Home({ allPostsData }) {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-RPDGSYJ0B4"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-RPDGSYJ0B4');
+        </script>
       </Head>
       <main>
         <ProductPromotion />

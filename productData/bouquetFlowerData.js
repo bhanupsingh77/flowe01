@@ -1,9 +1,9 @@
 const bouquetFlowerData = [
   {
-    name: "Ferrero Rocher Chocolate",
-    price: "₹ 999",
+    name: "Orange Love",
+    price: "₹ 899",
     info: "",
-    image: `/productImages/flowerBouquet001.jpeg`,
+    image: `/productImages/flowerBouquet003.jpeg`,
     productCategory: "Bouquet",
   },
   {
@@ -21,10 +21,10 @@ const bouquetFlowerData = [
     productCategory: "Bouquet",
   },
   {
-    name: "Orange Love",
-    price: "₹ 899",
+    name: "Ferrero Rocher Chocolate",
+    price: "₹ 1899",
     info: "",
-    image: `/productImages/flowerBouquet003.jpeg`,
+    image: `/productImages/flowerBouquet001.jpeg`,
     productCategory: "Bouquet",
   },
   {

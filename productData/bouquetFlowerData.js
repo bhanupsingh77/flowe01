@@ -1,30 +1,30 @@
 const bouquetFlowerData = [
   {
-    name: "Orange Love",
-    price: "₹ 1999",
+    name: "Ferrero Rocher Chocolate",
+    price: "₹ 999",
     info: "",
     image: `/productImages/flowerBouquet001.jpeg`,
     productCategory: "Bouquet",
   },
   {
+    name: "Splendid Pink",
+    price: "₹ 2299",
+    info: "",
+    image: `/productImages/flowerBouquet004.jpeg`,
+    productCategory: "Bouquet",
+  },
+  {
     name: "Red Love",
-    price: "₹ 1999",
+    price: "₹ 899",
     info: "",
     image: `/productImages/flowerBouquet002.jpeg`,
     productCategory: "Bouquet",
   },
   {
-    name: "Mix Elegance",
-    price: "₹ 1999",
+    name: "Orange Love",
+    price: "₹ 899",
     info: "",
     image: `/productImages/flowerBouquet003.jpeg`,
-    productCategory: "Bouquet",
-  },
-  {
-    name: "Splendid Pink",
-    price: "₹ 1999",
-    info: "",
-    image: `/productImages/flowerBouquet004.jpeg`,
     productCategory: "Bouquet",
   },
   {
@@ -36,7 +36,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Twilight Blue",
-    price: "₹ 1999",
+    price: "₹ 1599",
     info: "",
     image: `/productImages/flowerBouquet006.jpeg`,
     productCategory: "Bouquet",

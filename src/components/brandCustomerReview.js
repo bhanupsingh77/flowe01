@@ -78,7 +78,7 @@ const BrandCustomerReview = ({ CustomersReviewData }) => {
             }
 
             return (
-              <div>
+              <div key={`${reviewData}${index}`}>
                 {star}
                 <div className={styles.reviewContent}>{reviewData.review}</div>
                 <div className={styles.reviewImageContainer}>

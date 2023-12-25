@@ -1,11 +1,11 @@
 .mainContainer {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  background-color: #f7f7f754;
-  margin-top: 50px;
+  background-color: #ffffff;
   padding-top: 20px;
-  height: 350px;
+  width: 100% !important;
+  height: 400px !important;
 }
 
 .heading {
@@ -15,29 +15,46 @@
   color: rgb(0, 0, 0);
   text-align: center;
 }
-.carouselContainer {
-  background-color: rgba(255, 228, 196, 0);
-  height: 220px;
+.headingTwo {
+  text-align: center;
 }
-/* .brandReviewImage {
-  border: 1px red solid;
-  position: relative !important;
-  width: 40% !important;
-  height: 100px !important;
-} */
+.carouselContainer {
+  margin: 5%;
+  padding: 2%;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  height: 200px !important;
+  box-shadow: 0px -1px 14px 0 rgb(0 0 0 / 13%);
+}
+
 .reviewImageContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: unset !important;
 }
-.reviewImage {
+.reviewerImage {
   position: relative !important;
-  width: 60% !important;
-  height: 180px !important ;
-  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
-    0px 2px 1px -1px rgb(0 0 0 / 12%);
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
+  height: 40px !important ;
+}
+.reviewerName {
+  margin-left: 15px;
+}
+.reviewContent {
+  display: flex;
+  justify-content: center;
+  margin: 0px 5px;
+  font-weight: 600;
+  width: 93% !important;
+  height: 80px;
+}
+.starContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.startColor {
+  fill: gold;
 }
 .reviewButtonContainer {
   display: flex;
@@ -82,5 +99,15 @@
   .reviewImage {
     width: 90% !important;
     height: 90px !important ;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .carouselContainer {
+    margin: 0px 15%;
+  }
+
+  .headingTwo {
+    margin-bottom: 20px;
   }
 }

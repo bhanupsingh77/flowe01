@@ -2,9 +2,12 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 import styles from "../../styles/brandCustomerReview.module.css";
+import { FaStar } from "react-icons/fa";
 
-const BrandCustomerReview = ({ displayNumber }) => {
-  const displayCustomerReviewsImages = new Array(displayNumber).fill(1);
+const BrandCustomerReview = ({ CustomersReviewData }) => {
+  const displayCustomerReviewsImages = new Array(
+    CustomersReviewData.length
+  ).fill(1);
 
   const responsive = {
     desktop: {
@@ -26,15 +29,10 @@ const BrandCustomerReview = ({ displayNumber }) => {
 
   return (
     <div className={styles.mainContainer}>
-      {/* <div>
-        <Image
-          className={styles.brandReviewImage}
-          fill
-          src={`/review/Review.png`} // Route of the image file
-          alt={`Brand review`}
-        />
-      </div> */}
       <div className={styles.heading}>Customer Review</div>
+      <div className={styles.headingTwo}>
+        Hear from our satisfied customers.
+      </div>
       <div>
         <Carousel
           className={styles.carouselContainer}
@@ -55,18 +53,45 @@ const BrandCustomerReview = ({ displayNumber }) => {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
-          {displayCustomerReviewsImages.map((e, i) => {
+          {CustomersReviewData.map((reviewData, index) => {
+            let star;
+            if (index > 1) {
+              star = (
+                <div className={styles.starContainer}>
+                  <FaStar className={styles.startColor} />
+                  <FaStar className={styles.startColor} />
+                  <FaStar className={styles.startColor} />
+                  <FaStar className={styles.startColor} />
+                  <FaStar />
+                </div>
+              );
+            } else {
+              star = (
+                <div className={styles.starContainer}>
+                  <FaStar className={styles.startColor} />
+                  <FaStar className={styles.startColor} />
+                  <FaStar className={styles.startColor} />
+                  <FaStar className={styles.startColor} />
+                  <FaStar className={styles.startColor} />
+                </div>
+              );
+            }
+
             return (
-              <div
-                className={styles.reviewImageContainer}
-                key={`reviewkey${i}`}
-              >
-                <Image
-                  className={styles.reviewImage}
-                  fill
-                  src={`/review/Review${i + 1}.png`} // Route of the image file
-                  alt={`Customer review ${i + 1}`}
-                />
+              <div>
+                {star}
+                <div className={styles.reviewContent}>{reviewData.review}</div>
+                <div className={styles.reviewImageContainer}>
+                  <div>
+                    <Image
+                      className={styles.reviewerImage}
+                      fill
+                      alt={`customerPhoto`}
+                      src={reviewData.customerPhoto}
+                    />
+                  </div>
+                  <div>{reviewData.name}</div>
+                </div>
               </div>
             );
           })}

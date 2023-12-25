@@ -8,6 +8,7 @@ import SocialMedia from "../src/components/socialMedia";
 import boxFlowerData from "../productData/boxFlowerData.js";
 import basketFlowerData from "../productData/basketFlowerData.js";
 import bouquetFlowerData from "../productData/bouquetFlowerData.js";
+import CustomersReviewData from "../productReview/customersReviewData.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -52,7 +53,7 @@ export default function Home({ allPostsData }) {
           productData={basketFlowerData}
           productCategory={"Basket"}
         />
-        <BrandCustomerReview displayNumber={3} />
+        <BrandCustomerReview CustomersReviewData={CustomersReviewData} />
         <BrandLocation />
         <SocialMedia />
       </main>

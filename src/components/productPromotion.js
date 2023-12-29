@@ -21,7 +21,7 @@ function ProductPromotion() {
       <div className={styles.container}>
         <Image
           className={styles.bannerImage}
-          src={`/promo/Promo1.jpeg`}
+          src={`/promo/Promo1.png`}
           alt={"promo banner"}
           fill
         />

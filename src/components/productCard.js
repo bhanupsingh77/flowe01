@@ -6,16 +6,19 @@ import WhatsAppButton from "./whatsAppButton.js";
 
 const ProductCard = ({ product }) => {
   const { name, price, image, info, productCategory } = product;
-  const [showInfo, setShowInfo] = useState(false);
+  const [showInfo, setShowInfo] = useState(true);
   const toggleInfo = () => {
     setShowInfo(!showInfo);
   };
+
+  const infoText = info.split("\n").map((str) => <div key={str}>{str}</div>);
+  const cardNames = name.split("\n").map((str) => <div key={str}>{str}</div>);
 
   return (
     <div className={styles.card}>
       <Image fill className={styles.cardImage} src={image} alt={name} />
       <div className={styles.cardContent}>
-        <h2 className={styles.cardName}>{name}</h2>
+        <div className={styles.cardName}>{cardNames}</div>
         <p className={styles.cardPrice}>{price}</p>
         <WhatsAppButton
           phoneNumber="+919315551966"
@@ -29,7 +32,7 @@ const ProductCard = ({ product }) => {
         <div
           className={`${styles.cardInfo} ${showInfo ? styles.cardExpand : ""}`}
         >
-          {info}
+          <div className={styles.infoCardContainer}>{infoText}</div>
         </div>
       </div>
     </div>

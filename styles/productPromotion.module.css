@@ -1,7 +1,7 @@
 .mainContaineer {
   margin-top: 90px;
   font-family: Open Sans;
-  background-color: #feffed;
+  background-color: rgba(240, 248, 255, 0.479);
 }
 .contactInfo {
   font-size: 24px;
@@ -19,9 +19,9 @@
   align-items: center;
 }
 .bannerImage {
-  width: 940px !important;
+  width: 740px !important;
   position: relative !important;
-  height: 340px !important;
+  height: 200px !important;
   box-shadow: 1px 1px 0px 1px #fbffbe;
 }
 
@@ -31,7 +31,7 @@
   }
   .bannerImage {
     width: 340px !important;
-    height: 180px !important;
+    height: 140px !important;
   }
 }
 

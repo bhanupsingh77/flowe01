@@ -10,7 +10,7 @@ export default function Document() {
           id="hotjar analytics"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
-            __html: (function (h, o, t, j, a, r) {
+            __html: `(function (h, o, t, j, a, r) {
               h.hj =
                 h.hj ||
                 function () {
@@ -27,7 +27,7 @@ export default function Document() {
               document,
               "https://static.hotjar.com/c/hotjar-",
               ".js?sv="
-            ),
+            )`,
           }}
         />
       </Head>

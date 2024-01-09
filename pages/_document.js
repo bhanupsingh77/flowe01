@@ -7,6 +7,7 @@ export default function Document() {
       <Head>
         {/* <!-- Hotjar Tracking Code for lkbombay --> */}
         <Script
+          id="hotjar analytics"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: (function (h, o, t, j, a, r) {

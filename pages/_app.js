@@ -1,16 +1,17 @@
 import { Analytics } from "@vercel/analytics/react";
 import Header from "../src/components/header";
-import Script from "next/script";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       {/* <!-- Hotjar Tracking Code for lkbombay --> */}
-      <Script
-        id="hotjar analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `(function (h, o, t, j, a, r) {
+      <Head>
+        <script
+          id="hotjar analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function (h, o, t, j, a, r) {
             h.hj =
               h.hj ||
               function () {
@@ -27,9 +28,10 @@ function MyApp({ Component, pageProps }) {
             document,
             "https://static.hotjar.com/c/hotjar-",
             ".js?sv="
-          )`,
-        }}
-      />
+          );`,
+          }}
+        />
+      </Head>
       <Header />
       <Component {...pageProps} />
       <Analytics />

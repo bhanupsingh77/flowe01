@@ -8,8 +8,7 @@ function MyApp({ Component, pageProps }) {
       {/* <!-- Hotjar Tracking Code for lkbombay --> */}
       <Head>
         <script
-          id="hotjar analytics"
-          strategy="afterInteractive"
+          id="hotjarAnalytics"
           dangerouslySetInnerHTML={{
             __html: `(function (h, o, t, j, a, r) {
             h.hj =

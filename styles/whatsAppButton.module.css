@@ -2,19 +2,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 16px;
+  padding: 9px 16px;
   border: none;
   border-radius: 4px;
-  background-color: #25d366;
+  background-color: #128c7e;
   color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 900;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  font-family: "serif";
 }
 
 .button:hover {
-  background-color: #128c7e;
+  background-color: #25d366;
 }
 
 .icon {
@@ -24,7 +25,8 @@
 
 @media (max-width: 768px) {
   .button {
-    padding: 6px 10px;
+    padding: 9px 10px;
     font-size: 14px;
+    font-weight: 900;
   }
 }

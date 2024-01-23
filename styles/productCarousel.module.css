@@ -20,8 +20,15 @@
   margin-top: 20px;
   font-size: 25px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   color: #aa2828;
+  text-shadow: 2px 1px 20px #ad6262;
+}
+.textTwo {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #3d3b3d;
   text-shadow: 2px 1px 20px #ad6262;
 }
 

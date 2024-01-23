@@ -2,7 +2,9 @@ import styles from "../../styles/productCard.module.css";
 import { useState } from "react";
 import Image from "next/image";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
-import WhatsAppButton from "./whatsAppButton.js";
+// import WhatsAppButton from "./whatsAppButton.js";
+// import WhatsAppButtonAdvance from "./whatsAppButtonAdvance.js";
+import OrderCallButton from "./orderCallButton.js";
 
 const ProductCard = ({ product }) => {
   const { name, price, image, info, productCategory } = product;
@@ -20,10 +22,12 @@ const ProductCard = ({ product }) => {
       <div className={styles.cardContent}>
         <div className={styles.cardName}>{cardNames}</div>
         <p className={styles.cardPrice}>{price}</p>
-        <WhatsAppButton
+        {/* whatsapp impletation stoped due image sending issue */}
+        {/* <WhatsAppButtonAdvance
           phoneNumber="+919315551966"
           productCategory={productCategory}
-        />
+        /> */}
+        <OrderCallButton></OrderCallButton>
         {/* implementation hidden with css */}
         <button className={styles.moreInfoButton} onClick={toggleInfo}>
           <FiChevronDown className={styles.moreInfoButtonIcon} />

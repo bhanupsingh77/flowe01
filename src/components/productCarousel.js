@@ -34,6 +34,9 @@ const ProductCarousel = ({ productCategory, productData }) => {
       <div className={styles.text}>
         BestSeller Flower {`${productCategory}`}
       </div>
+      <div className={styles.textTwo}>
+        Click left/right arrow to scroll for more products
+      </div>
       <Carousel
         className={styles.container}
         swipeable={true}

@@ -19,7 +19,6 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "react-multi-carousel": "^2.8.2",
-    "react-whatsapp-widget": "^2.2.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.2"
   }

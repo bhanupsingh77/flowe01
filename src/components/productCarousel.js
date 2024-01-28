@@ -1,6 +1,5 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Image from "next/image";
 import styles from "../../styles/productCarousel.module.css";
 import ProductCard from "./productCard.js";
 
@@ -46,10 +45,10 @@ const ProductCarousel = ({ productCategory, productData }) => {
         ssr={false} // means to render carousel on server-side.
         infinite={true}
         autoPlay={false}
-        //   autoPlaySpeed={1000}
+        // autoPlaySpeed={1200}
         keyBoardControl={false}
-        //   customTransition="all .8"
-        //   transitionDuration={1000}
+        // customTransition="all .8"
+        // transitionDuration={1200}
         containerClass="carousel-container"
         removeArrowOnDeviceType={""}
         deviceType={""}
@@ -63,14 +62,6 @@ const ProductCarousel = ({ productCategory, productData }) => {
                 <ProductCard
                   product={{ productCategory, name, price, image, info }}
                 />
-                {/* <Image
-                  className={styles.productImage}
-                  fill
-                  src={`/productImages/flower${productType}0${i + 1}.jpeg`} // Route of the image file
-                  // height={420} // Desired size with correct aspect ratio
-                  // width={330} // Desired size with correct aspect ratio
-                  alt={`flower${productType}0${i + 1}`}
-                /> */}
               </div>
             );
           } else {
@@ -79,14 +70,6 @@ const ProductCarousel = ({ productCategory, productData }) => {
                 <ProductCard
                   product={{ productCategory, name, price, image, info }}
                 />
-                {/* <Image
-                  className={styles.productImage}
-                  fill
-                  src={`/productImages/flower${productType}00${i + 1}.jpeg`} // Route of the image file
-                  // height={420} // Desired size with correct aspect ratio
-                  // width={330} // Desired size with correct aspect ratio
-                  alt={`flower${productType}00${i + 1}`}
-                /> */}
               </div>
             );
           }

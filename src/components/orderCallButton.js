@@ -9,4 +9,3 @@ const OrderCallButton = () => {
 };
 
 export default OrderCallButton;
-//   <button >Click to Place Order</button>;

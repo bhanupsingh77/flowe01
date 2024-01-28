@@ -12,7 +12,7 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   font-family: "serif";
-  text-decoration: "none";
+  text-decoration-line: none;
 }
 
 .button:hover {

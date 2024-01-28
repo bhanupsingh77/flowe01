@@ -18,14 +18,15 @@ function ProductPromotion() {
           </a>
         </p>
       </div>
-      <div className={styles.container}>
+      {/* promo banner */}
+      {/* <div className={styles.container}>
         <Image
           className={styles.bannerImage}
           src={`/promo/Promo1.png`}
           alt={"promo banner"}
           fill
         />
-      </div>
+      </div> */}
     </div>
   );
 }

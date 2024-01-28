@@ -22,14 +22,12 @@
   text-align: center;
   font-weight: 500;
   color: #aa2828;
-  text-shadow: 2px 1px 20px #ad6262;
 }
 .textTwo {
   font-size: 15px;
   text-align: center;
   font-weight: bold;
   color: #3d3b3d;
-  text-shadow: 2px 1px 20px #ad6262;
 }
 
 @media only screen and (max-width: 464px) {

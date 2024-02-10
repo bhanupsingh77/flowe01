@@ -1,0 +1,30 @@
+/* components/DiscountNotification.module.css */
+
+.notificationBar {
+  background-color: #156fac;
+  color: #fff;
+  padding: 8px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  margin: 0px;
+  margin-left: 12px;
+}
+
+.closeButton {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 0 12px;
+}
+
+/* Adjust the styles for the navigation bar */

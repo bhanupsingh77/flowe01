@@ -31,7 +31,7 @@ const BrandCustomerReview = ({ CustomersReviewData }) => {
     <div className={styles.mainContainer}>
       <div className={styles.heading}>Customer Review</div>
       <div className={styles.headingTwo}>
-        Hear from our satisfied customers.
+        Hear what our customers have to say about their experiences.
       </div>
       <div>
         <Carousel

@@ -6,10 +6,10 @@ function ProductPromotion() {
     <div className={styles.mainContaineer}>
       <div>
         <p className={styles.contactInfo}>
-          Contact Us for order (Delhi NCR) phone/whatsApp
+          Contact Us for order (Delhi NCR) phone call
           <a className={styles.number} href="tel:919810948655">
             {" "}
-            +91 9810948655/9315551966
+            +91 9810948655 / 9315551966
           </a>{" "}
           Landline
           <a className={styles.number} href="tel:01124333121">

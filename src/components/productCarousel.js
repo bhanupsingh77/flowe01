@@ -44,7 +44,7 @@ const ProductCarousel = ({ productCategory, productData }) => {
         responsive={responsive}
         ssr={false} // means to render carousel on server-side.
         infinite={true}
-        autoPlay={false}
+        // autoPlay={false}
         // autoPlaySpeed={1200}
         keyBoardControl={false}
         // customTransition="all .8"
@@ -55,25 +55,41 @@ const ProductCarousel = ({ productCategory, productData }) => {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >
-        {productData.map(({ productCategory, name, price, image, info }, i) => {
-          if (i + 1 >= 10) {
-            return (
-              <div className={styles.imageContainer} key={`key${name}${i}`}>
-                <ProductCard
-                  product={{ productCategory, name, price, image, info }}
-                />
-              </div>
-            );
-          } else {
-            return (
-              <div className={styles.imageContainer} key={`key${i}`}>
-                <ProductCard
-                  product={{ productCategory, name, price, image, info }}
-                />
-              </div>
-            );
+        {productData.map(
+          ({ productCategory, name, price, image, info, size }, i) => {
+            if (i + 1 >= 10) {
+              return (
+                <div className={styles.imageContainer} key={`key${name}${i}`}>
+                  <ProductCard
+                    product={{
+                      productCategory,
+                      name,
+                      price,
+                      image,
+                      info,
+                      size,
+                    }}
+                  />
+                </div>
+              );
+            } else {
+              return (
+                <div className={styles.imageContainer} key={`key${i}`}>
+                  <ProductCard
+                    product={{
+                      productCategory,
+                      name,
+                      price,
+                      image,
+                      info,
+                      size,
+                    }}
+                  />
+                </div>
+              );
+            }
           }
-        })}
+        )}
       </Carousel>
     </div>
   );

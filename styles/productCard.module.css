@@ -74,6 +74,31 @@
     height: auto;
   }
 } */
+
+/* discount card */
+
+.product {
+  margin: 2px 0px;
+  padding: 4px 0px;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+}
+
+.discountedPrice {
+  color: #000000; /* Adjust the color as needed */
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.discountPercentage {
+  color: #1b7906; /* Adjust the color as needed */
+  font-weight: bold;
+}
+
 @media (min-width: 769px) {
   .cardExpand {
     display: block;
@@ -149,8 +174,12 @@
     background-color: #e3f2ff52;
   }
   .infoCardContainer {
-    height: 90px;
-    font-size: medium;
+    font-size: 14px;
     font-weight: bold;
+  }
+  /* discount card */
+
+  .product {
+    font-size: 12px;
   }
 }

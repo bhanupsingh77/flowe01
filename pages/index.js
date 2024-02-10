@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import ProductPromotion from "../src/components/productPromotion";
+import NotificationBar from "../src/components/notificationBar";
 import ProductCarousel from "../src/components/productCarousel";
 import BrandLocation from "../src/components/brandLocation";
 import BrandCustomerReview from "../src/components/brandCustomerReview";
@@ -43,6 +44,7 @@ export default function Home({ allPostsData }) {
         />
       </Head>
       <main>
+        <NotificationBar />
         <ProductPromotion />
         <ProductCarousel
           productData={bouquetFlowerData}

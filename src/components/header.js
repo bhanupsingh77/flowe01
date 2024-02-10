@@ -52,12 +52,12 @@ const Header = () => {
                   </a>
                 </p>
                 <p className={styles.header__nav_link}>
-                  Phone/whatsApp <FaPhone size={12} />{" "}
+                  Phone call <FaPhone size={12} />{" "}
                   <a
                     style={{ color: "white", textDecorationLine: "none" }}
                     href="tel:919810948655"
                   >
-                    +91 9810948655/9315551966
+                    +91 9810948655 / 9315551966
                   </a>
                 </p>
               </li>

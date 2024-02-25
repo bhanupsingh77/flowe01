@@ -9,6 +9,7 @@ import SocialMedia from "../src/components/socialMedia";
 import boxFlowerData from "../productData/boxFlowerData.js";
 import basketFlowerData from "../productData/basketFlowerData.js";
 import bouquetFlowerData from "../productData/bouquetFlowerData.js";
+import varmalaFlowerData from "../productData/varmalaFlowerData.js";
 import CustomersReviewData from "../productReview/customersReviewData.js";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -49,6 +50,10 @@ export default function Home({ allPostsData }) {
         <ProductCarousel
           productData={bouquetFlowerData}
           productCategory={"Bouquet"}
+        />
+        <ProductCarousel
+          productData={varmalaFlowerData}
+          productCategory={"Wedding Varmala/Jaimala/Garland"}
         />
         <ProductCarousel productData={boxFlowerData} productCategory={"Box"} />
         <ProductCarousel

@@ -17,7 +17,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Orange \n(Oriental Lilies)",
-    price: "300",
+    price: "500",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet004.jpeg`,
@@ -33,7 +33,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Sunrise Yellow \n(Asiatic Lilies)",
-    price: "250",
+    price: "300",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet001.jpeg`,
@@ -57,7 +57,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Pink \n(Oriental Lilies)",
-    price: "300",
+    price: "500",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet007.jpeg`,
@@ -73,7 +73,7 @@ const bouquetFlowerData = [
   },
   {
     name: "White \n(Asiatic Lilies)",
-    price: "250",
+    price: "300",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet010.jpeg`,
@@ -81,7 +81,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Pink \n(Asiatic Lilies)",
-    price: "250",
+    price: "300",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet011.jpeg`,

@@ -15,12 +15,12 @@ const bouquetFlowerData = [
     image: `/productImages/flowerBouquet003.jpeg`,
     productCategory: "Bouquet",
   },
-  {
-    name: "Orange \n(Oriental Lilies)",
-    price: "500",
+   {
+    name: "Pink \n(Oriental Lilies)",
+    price: "375",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
-    image: `/productImages/flowerBouquet004.jpeg`,
+    image: `/productImages/flowerBouquet007.jpeg`,
     productCategory: "Bouquet",
   },
   {
@@ -32,8 +32,8 @@ const bouquetFlowerData = [
     productCategory: "Bouquet",
   },
   {
-    name: "Sunrise Yellow \n(Asiatic Lilies)",
-    price: "300",
+    name: "Sunrise Yellow \n(Oriental Lilies)",
+    price: "375",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet001.jpeg`,
@@ -56,13 +56,14 @@ const bouquetFlowerData = [
     productCategory: "Bouquet",
   },
   {
-    name: "Pink \n(Oriental Lilies)",
-    price: "500",
+    name: "Orange \n(Oriental Lilies)",
+    price: "375",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
-    image: `/productImages/flowerBouquet007.jpeg`,
+    image: `/productImages/flowerBouquet004.jpeg`,
     productCategory: "Bouquet",
   },
+ 
   {
     name: "Red \n(Carnation)",
     price: "60",
@@ -72,8 +73,8 @@ const bouquetFlowerData = [
     productCategory: "Bouquet",
   },
   {
-    name: "White \n(Asiatic Lilies)",
-    price: "300",
+    name: "White \n(Oriental Lilies)",
+    price: "375",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet010.jpeg`,
@@ -81,7 +82,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Pink \n(Asiatic Lilies)",
-    price: "300",
+    price: "200",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet011.jpeg`,

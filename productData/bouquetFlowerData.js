@@ -1,7 +1,7 @@
 const bouquetFlowerData = [
   {
     name: "Orange \n(Carnation)",
-    price: "60",
+    price: "70",
     size: [10, 15, 30],
     info: "Bouquet\n10 pcs - ₹ price1\n15 pcs - ₹ price2\n30 pcs - ₹ price3",
     image: `/productImages/flowerBouquet002.jpeg`,
@@ -9,7 +9,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Red Love \n(Rose)",
-    price: "60",
+    price: "90",
     size: [10, 15, 30],
     info: "Bouquet\n 10 pcs - ₹ price1\n 15 pcs - ₹ price2\n 30 pcs - ₹ price3",
     image: `/productImages/flowerBouquet003.jpeg`,
@@ -25,7 +25,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Blue \n (Orchid)",
-    price: "130",
+    price: "150",
     size: [6, 10, 15],
     info: "Bouquet\n 6 pcs - ₹ price1\n 10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet008.jpeg`,
@@ -41,7 +41,7 @@ const bouquetFlowerData = [
   },
   {
     name: "White \n(Carnation)",
-    price: "60",
+    price: "70",
     size: [10, 15, 30],
     info: "Bouquet\n 10 pcs - ₹ price1\n 15 pcs - ₹ price2\n 30 pcs - ₹ price3",
     image: `/productImages/flowerBouquet006.jpeg`,
@@ -49,7 +49,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Valentine Love \n(Rose)",
-    price: "60",
+    price: "90",
     size: [50, 75, 100],
     info: "Bouquet\n 50 pcs - ₹ price1\n75 pcs - ₹ price2\n 100 pcs - ₹ price3",
     image: `/productImages/flowerBouquet005.jpeg`,
@@ -66,7 +66,7 @@ const bouquetFlowerData = [
  
   {
     name: "Red \n(Carnation)",
-    price: "60",
+    price: "70",
     size: [10, 15, 30],
     info: "Bouquet\n 10 pcs - ₹ price1\n 15 pcs - ₹ price2\n 30 pcs - ₹ price3",
     image: `/productImages/flowerBouquet009.jpeg`,
@@ -82,7 +82,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Pink \n(Asiatic Lilies)",
-    price: "200",
+    price: "250",
     size: [6, 10, 15],
     info: "Bouquet\n6 pcs - ₹ price1\n10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet011.jpeg`,
@@ -90,7 +90,7 @@ const bouquetFlowerData = [
   },
   {
     name: "Pink \n (Orchid)",
-    price: "130",
+    price: "150",
     size: [6, 10, 15],
     info: "Bouquet\n 6 pcs - ₹ price1\n 10 pcs - ₹ price2\n 15 pcs - ₹ price3",
     image: `/productImages/flowerBouquet012.jpeg`,

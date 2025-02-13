@@ -1,28 +1,28 @@
 const boxFlowerData = [
   {
     name: "Mix Delight",
-    price: "2999",
+    price: "3999",
     info: "Contact for flower variety, quantity details.",
     image: `/productImages/flowerBox001.jpeg`,
     productCategory: "Box Arrangement",
   },
   {
     name: "Love Roses",
-    price: "3999",
+    price: "4999",
     info: "Contact for flower variety, quantity details.",
     image: `/productImages/flowerBox008.jpeg`,
     productCategory: "Box Arrangement",
   },
   {
     name: "Charming Love Roses",
-    price: "2599",
+    price: "3599",
     info: "Contact for flower variety, quantity details.",
     image: `/productImages/flowerBox011.jpeg`,
     productCategory: "Box Arrangement",
   },
   {
     name: "Valentine Love Roses",
-    price: "3999",
+    price: "4999",
     info: "Contact for flower variety, quantity details.",
     image: `/productImages/flowerBox013.jpeg`,
     productCategory: "Box Arrangement",
